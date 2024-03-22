@@ -1,0 +1,26 @@
+<p> hello world</p>
+<p><b>priya</b></p>
+<p><b> sai</b></p>
+<p> this is my frist paragraph this is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraphthis is my frist paragraph </p>
+<h1> headings</h1>
+
+<h2> priya</h2>
+<h2>divya</h2>
+<h3> sai</h3>
+<h4> ganesh</h4>
+<h5> aruna</h5>
+<h6> daddy</h6>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my boilerplate</title>
+</head>
+<body>
+    <p> hello   </p>
+    <p> </p>
+</body>
+</html>

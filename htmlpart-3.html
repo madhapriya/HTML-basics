@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLPART-3</title>
+</head>
+<body>
+
+
+    <!--tables in html-->
+    <table border="black">
+        <caption> table caption</caption>
+        <tr>
+            <th>header1</th>
+            <th>header2</th>
+        </tr>
+        <tr>
+            <td> data1</td>
+            <td> data2</td>
+        </tr>
+    </table>
+
+
+    <!--program-->
+    <hr>
+    <table border="black">
+        <caption>Food menu</caption>
+        <!--TABLE HEADER-->
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <!--TABLE BODY-->
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>chips</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!--USING COLSPAN & ROWSPAN-->
+    <table border="black">
+        <caption>FOOD MENU</caption>
+        <!--table header-->
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <!--TABLE BODY-->
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.1</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>120</td>
+                <td>1.2</td>
+            </tr>
+            <tr>
+                <td>chips</td>
+                <td>20</td>
+                <td>2.0</td>
+            </tr> 
+        </tbody>
+    </table>
+    <hr>
+    <!--PRACTICE QS-->
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red eyes</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>weight</td>
+        </tr>
+        <tr>
+            <td>males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+</body>
+</html>

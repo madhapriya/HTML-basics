@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+</head>
+<body>
+    <forms action="/server">
+        <input>
+          <h2>
+           enter your name:
+           <input type="text" placeholder="enter your name:">
+          </h2>
+          <h2>
+            enter your password:
+            <input type="password" placeholder="enter your password:">
+          </h2>
+          <h2>
+            enter your DOB:
+            <input type="date" placeholder="enter your DOB:">  
+          </h2>
+          <h2>
+            enter your present time now:
+            <input type="time"> 
+          </h2>
+        enter your date:
+        <input type="time">
+        <br>
+        colour
+        <input type="color" placeholder="enter your colour">
+        <br>
+   </forms>
+        <!---USING LABEL-->
+    <forms>
+        <h1> using label</h1>
+        <div>
+            <label>
+                enter your name:
+                <input type="text" placeholder="enter your name:">
+            </label>
+        </div>
+        <br>
+        <label>
+            enter your password:
+            <input type="password" placeholder="enter your password:">
+        </label>
+        <br>
+        <label>
+            enter your DOB:
+            <input type="date" placeholder="enter your DOB:"> 
+        </label>
+        <br>
+        <label>
+            colour
+        <input type="color" placeholder="enter your colour">
+        </label>
+        <br>
+    </forms>
+        <!--CLASSICAL APPROACH-->
+   <form action="/action">
+     <div>
+        <label for username>Enter your name:</label>
+        <input type="text" id="username" placeholder="enter your name:">
+        <br>
+     </div>
+      <!--BUTTONS-->
+     <button>submit</button>
+     <button type="submit">submit</button>
+     <br>
+     <button type="button">login</button>
+     <br>
+     <button type="reset">reset</button>
+     <input type="button" value="ok">
+     <input type="submit" value="click me">
+    </form>
+    <hr/>
+    <form action="https://www.youtube.com/results?search_query=google">
+       <input type="text" placeholder="search in youtube" name="search_query">
+       <button>search</button>    
+    </form>
+</body>
+</html>
